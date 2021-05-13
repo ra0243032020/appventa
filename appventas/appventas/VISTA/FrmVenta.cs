@@ -40,7 +40,7 @@ namespace appventas.VISTA
                 comboBox1.DisplayMember = "nombreDocumento";
                 comboBox1.ValueMember = "iDDocumento";
             }
-
+         
         }
     }
 }

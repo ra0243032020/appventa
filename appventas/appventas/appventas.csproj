@@ -55,7 +55,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\bd_usuario.cs" />
     <Compile Include="DAO\ClsAcceso.cs" />
+    <Compile Include="DAO\ClsUsuario.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
