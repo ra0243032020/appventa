@@ -7,23 +7,24 @@ using System.Threading.Tasks;
 
 namespace appventas.DAO
 {
-    class ClsUsuario
+    class ClsDDocumento
     {
 
-        public List<bd_usuario> CargarUsuario()
+        public List<tb_documento> CargarComboDocumento()
         {
-            List<bd_usuario> Lista;
 
+
+
+            List<tb_documento> tb_documento = new List<tb_documento>();
             using (sistema_ventasEntities bd = new sistema_ventasEntities())
             {
-                Lista = bd.tb_usuario.ToList();
-    
+                tb_documento = tb_documento.ToList();
+
+
+
             }
-            return null;
 
-
-
-
+            return tb_documento;
         }
     }
 }
